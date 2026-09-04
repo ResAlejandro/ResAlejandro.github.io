@@ -1,0 +1,23 @@
+.field {
+    display: flex;
+    flex-wrap: wrap ;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding: 30pt;
+    
+}
+
+.box {
+    border: 1px solid grey;
+    border-radius: 5pt;
+    text-align: center;
+    box-shadow: 5pt 5pt 10pt black;
+
+}
+
+.box img {
+    border-bottom: 1px solid grey;
+    border-radius: 5pt 5pt 0pt 0pt;
+    width: 150pt;
+    height: 150pt;
+}
