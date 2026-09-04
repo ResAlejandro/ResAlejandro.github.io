@@ -1,3 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.784);
+    
+}
+
+h1, footer p {
+    color: white;
+}
+
+ p {
+    color:black ;
+}
+
+header h1 {
+    text-align: center;
+}
+
 .container-fluid {
     padding: 0;
     margin: 0;
@@ -5,10 +24,92 @@
     width: auto;
 }
 
-.site-nav {
-    background-color: red;
+.nav-items{
+    margin-right:75pt;
 }
 
-li {
+.site-nav{
+    background-color: rgba(119, 152, 171);
+    margin-right: auto;
+}
+
+.site-nav ul {
+    display: flex;
+    list-style-type: none;
+   justify-content: center;
+   text-align: center;
+    margin-top: 10pt;
+    padding-top: 20pt;
+    padding-bottom : 20pt;
+   
+    
+    
+}
+
+.site-nav li {
     float: left;
+    text-decoration: none;
+    
+}
+
+.site-nav a {
+    text-decoration: none;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.active {
+    text-decoration: underline;
+    color: gray;
+    
+}
+
+.active:hover {
+    color: gray;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    margin: 50pt;
+    background-color: rgb(195, 219, 197);
+    box-shadow: 5pt 5pt 10pt black;
+    border-radius: 5px 50px  ;
+}
+
+.overMij {
+    flex: 1;
+    margin-left: 0;
+    
+}
+
+.pf-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+  
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer a {
+    margin-left: 10pt;
+}
+
+.bi-linkedin:hover {
+    color: #2867B2;
+}
+
+.bi-envelope-at-fill:hover {
+    color: white;
 }
