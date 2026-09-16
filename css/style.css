@@ -112,13 +112,10 @@ footer a {
 
 
 @media screen and (max-width: 514px) {
-  body {
-    background-color: lightgreen;
-  }
-
-  .site-nav ul {
-    flex-direction: column;
-    justify-content: center;
+ 
+    .site-nav ul {
+        flex-direction: column;
+        justify-content: center;
   }
 
  .site-nav li {
