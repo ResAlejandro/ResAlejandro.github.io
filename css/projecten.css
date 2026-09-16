@@ -23,13 +23,14 @@
     height: 150pt;
 }
 
-button a{
+button {
     color: white;
     text-decoration: none;
 }
 
-button a:hover{
+button:hover{
     color: #0d6efd;
+    cursor: pointer;
 }
 
 .myButton {
