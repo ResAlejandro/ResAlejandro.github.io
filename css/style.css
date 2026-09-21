@@ -31,7 +31,7 @@ header h1 {
 
 .nav-items{
     margin-right:75pt;
-    color: #1f2937;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -65,12 +65,12 @@ header h1 {
 
 .active {
     text-decoration: underline;
-    color: gray;
+    color: #404040;
     
 }
 
 .active:hover {
-    color: gray;
+    color: #404040;
 }
 
 .wrapper {
