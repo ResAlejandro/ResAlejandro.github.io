@@ -9,8 +9,13 @@ h1, footer p {
     color: white;
 }
 
- p {
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
     color:black ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header h1 {
@@ -26,11 +31,12 @@ header h1 {
 
 .nav-items{
     margin-right:75pt;
-    color: blue;
+    color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .site-nav{
-    background-color: rgba(119, 152, 171);
+    background-color:#c3dbd8;
     margin-right: auto;
 }
 
@@ -54,6 +60,7 @@ header h1 {
 .site-nav a:hover {
     text-decoration: none;
     color: green;
+    font-size: 18px;
 }
 
 .active {
