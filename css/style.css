@@ -127,7 +127,16 @@ header h1 {
     border-bottom: 1px solid #ddd;
 }
 
-.huidig-weer p {
+.locatie {
+    color: rgb(114, 102, 102);
+}
+
+.msg {
+    color: red;
+    font-size: 8pt;
+}
+
+.stats {
     color: black;
 }
 
@@ -140,6 +149,8 @@ header h1 {
     margin: 0 0 5px 0;
     font-size: 16px;
 }
+
+
 
 .max-temp {
     color: red;
