@@ -1,0 +1,53 @@
+form {
+   display: flex;
+  flex-direction: column;
+    width: 70%;
+    justify-content: center;
+}
+
+input {
+    width: 30%;
+}
+
+textarea {
+    width: 30%;
+    resize: none;
+    height: 50pt;
+}
+
+form button {
+    width: 10%;
+}
+
+/*Voor Form Meldingen*/
+
+[aria-invalid="true"] {
+    border: 2px solid red;
+}
+
+[role="alert"] {
+    color: red;
+    display: block;
+    margin-top: 5px;
+}
+
+.success {
+    color: green;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1132px) {
+    input {
+    width: 120%;
+}
+
+textarea {
+    width: 120%;
+    resize: none;
+    height: 50pt;
+}
+
+form button {
+    width: 50%;
+}
+}

@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <link rel="icon" type="image/x-icon" href="img/form.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Who am i?</title>
+    <link rel="stylesheet" href="css/form.css">
+    <title>form</title>
 </head>
 <body>
 
   <div class="container-fluid">
 
-    <header><h1>Who am i?</h1></header>
+    <header><h1>Form</h1></header>
 
     <nav class="site-nav" >
     
@@ -31,36 +31,41 @@
     </nav>
 
     <main class="wrapper">
-      
-     
-    <article class="overMij" style="display: flex; flex-direction: column;">
-      <h2>Over mij</h2> 
+        
+
+      <h2>Form</h2> 
 
         <br>
         
-        <p>
-            
+       <form id="contact-form" novalidate>
+<label for="naam">Naam</label>
+<input id="naam" type="text" required minlength="2" aria-describedby="naam-error" aria-invalid="false" required>
+<span id="naam-error" role="alert"></span>
 
-Mijn naam is Estailin Alejandro, ik ben 22 jaar oud en momenteel zit ik in mijn tweede jaar van de opleiding ICT – Software Engineering aan De Haagse Hogeschool. Programmeren is iets wat ik erg leuk vind en waarin ik mij graag verder wil ontwikkelen.
+<br>
 
-Voordat ik aan De Haagse Hogeschool begon, heb ik de opleiding Software Development aan ROC Mondriaan gevolgd. Tijdens deze opleiding heb ik al veel ervaring opgedaan met verschillende programmeertalen en technologieën, waaronder HTML, CSS, JavaScript, Bootstrap, PHP en Symfony. Hierdoor heb ik een goede basis kunnen opbouwen in zowel front-end als back-end development.
+<label for="email">E-mail</label>
+<input id="email" type="email" required aria-describedby="email-error" aria-invalid="false" required>
+<span id="email-error" role="alert"></span>
 
-Na mijn opleiding bij ROC Mondriaan wilde ik mijn kennis verder uitbreiden en mij meer verdiepen in software engineering. Daarom heb ik ervoor gekozen om verder te studeren aan De Haagse Hogeschool. Tijdens mijn huidige opleiding heb ik onder andere gewerkt met Java en ga ik mij verder verdiepen in C#. Daarnaast blijf ik werken met HTML, CSS en JavaScript en krijg ik steeds meer te maken met verschillende frameworks en andere technologieën.
+<br>
 
-Wat mij vooral aanspreekt aan programmeren is dat je met code iets kunt bedenken en dit vervolgens daadwerkelijk kunt bouwen. Ik vind het leuk om problemen op te lossen, nieuwe dingen te leren en mezelf steeds verder te verbeteren. Mijn doel is om mijn technische kennis en ervaring de komende jaren verder uit te breiden en uiteindelijk een goede software engineer te worden.
+<label for="bericht">Bericht</label>
+<textarea id="bericht" required minlength="10" aria-describedby="bericht-error" aria-invalid="false" required></textarea>
+<span id="bericht-error" role="alert"></span>
 
-Naast mijn studie werk ik bij DHL als pakketbezorger. Dit doe ik als bijbaan naast mijn opleiding. Hoewel mijn werk bij DHL niet direct met software development te maken heeft, leer ik hier wel verantwoordelijkheid te nemen, zelfstandig te werken en goed met mijn tijd om te gaan. Deze eigenschappen neem ik ook mee in mijn studie en toekomstige carrière binnen de ICT.   </p>
-    </article>
+<br>
 
+<button type="submit">Versturen</button>
+<div id="form-status" aria-live="polite"></div>
+</form>
 
-
-    <img class="pf-img" src="img/ik.jpg" alt="ik">
     
     
     </main>
   </div>
     
-   
+  
   
   <footer>
     <p>CONTACT</p> 
@@ -74,6 +79,7 @@ Naast mijn studie werk ik bij DHL als pakketbezorger. Dit doe ik als bijbaan naa
   <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
 </svg>
 </a>
+
 
 <button id="weer-knop" type="button">🌤️ Weer</button>
 
@@ -90,6 +96,7 @@ Naast mijn studie werk ik bij DHL als pakketbezorger. Dit doe ik als bijbaan naa
 </footer>
   <script src="js/weer.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/form.js"></script>
 </body>
 </html>
 

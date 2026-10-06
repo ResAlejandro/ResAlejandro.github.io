@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "img": "img/quote.avif",
+    "alt": "Quote",
+    "title": "Quote Generator",
+    "description": "Een generator die quotes uitleest",
+    "url": "https://github.com/EstailinAlejandro/Quote-generatorEA.github.io"
+  },
+  {
+    "id": 2,
+    "img": "img/sdg-2.jpg",
+    "alt": "SDG2 geen honger",
+    "title": "Challenge-EetMee-symfony",
+    "description": "Een applicatie gemaakt voor het beheren van een Foodbox. Bedoelt als solutie van SDG 2 geen honger",
+    "url": "https://github.com/EstailinAlejandro/Challenge-EetMee-symfony"
+  },
+  {
+    "id": 3,
+    "img": "img/Holobox.png",
+    "alt": "Holobox",
+    "title": "Holobox-info",
+    "description": "Dit was een stage opdracht en de bedoeling was een app voor de holobox waarin je alle opleiding binnen ROC Mondriaan kon zien.",
+    "url": "https://github.com/EstailinAlejandro/Holobox-info"
+  },
+  {
+    "id": 4,
+    "img": "img/conway.png",
+    "alt": "Conway's game of life",
+    "title": "CONWAY-S-GAME-OF-LIFE",
+    "description": "Conway’s Game of Life is een zogenaamde nul-speler-spel (cellular automaton), in 1970 bedacht door de Britse wiskundige John Horton Conway.",
+    "url": "https://github.com/ResAlejandro/CONWAY-S-GAME-OF-LIFE"
+  }
+]

@@ -8,6 +8,7 @@
 }
 
 .box {
+    width: 200pt;
     border: 1px solid grey;
     border-radius: 5pt;
     text-align: center;
@@ -17,8 +18,8 @@
 }
 
 .box img {
-    border-bottom: 1px solid grey;
-    border-radius: 4pt 4pt 0pt 0pt;
+    padding-top: 10pt;
+    border-radius: 30pt;
     width: 150pt;
     height: 150pt;
 }
